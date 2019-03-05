@@ -12,7 +12,7 @@ cd webscraper
 pip3 install -r requirements.txt
 ```
 
-You will also need to install the latest geckodriver(https://github.com/mozilla/geckodriver/releases) and firefox.
+You will also need to install the latest geckodriver([here](https://github.com/mozilla/geckodriver/releases)) and firefox.
 
 For the geckodriver:
 
