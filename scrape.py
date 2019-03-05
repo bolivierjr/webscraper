@@ -29,7 +29,7 @@ def get_data(url):
 
     except Exception as err:
         logging.error(f'{err}', exc_info=True)
-        print(err)
+        print(f'ERROR: {err}. Check error.log for tracestack.')
         sys.exit(1)
 
 
@@ -46,4 +46,5 @@ if __name__ == '__main__':
                         filename='error.log',
                         datefmt='%d-%b-%y %H:%M:%S')
 
-    print(get_data(args.url))
+    source = get_data(args.url)
+    print(source)

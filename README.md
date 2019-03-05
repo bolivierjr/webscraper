@@ -17,9 +17,20 @@ You will also need to install the latest geckodriver([here](https://github.com/m
 For the geckodriver:
 
 ```
-wget https://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-linux64.tar.gz
+wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz
 tar -xzvf geckodriver*.tar.gz
-mv geckodriver ~/.local/bin/  OR  mv geckodriver /usr/local/bin/
+mv geckodriver ~/.local/bin/
+```
+
+OR
+
+```
+mv geckodriver /usr/local/bin/
+```
+
+Then:
+
+```
 rm geckodriver*.tar.gz
 ```
 
