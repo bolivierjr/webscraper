@@ -6,13 +6,13 @@ from selenium.webdriver.firefox.options import Options
 
 def get_data(url):
     """
-    Uses selenium webdriver to scrape html off a page
+    Uses selenium webdriver to scrape html from a page.
 
     Args:
         url(str) - The url of the site to scrape.
 
     Returns:
-        (str) - Returns the whole html source
+        (str) - Returns the whole html source.
     """
     try:
         if not url.startswith('http'):
